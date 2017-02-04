@@ -67,9 +67,9 @@ function createParticle() {
   this.life = Math.random() * 100;
   // the life
 
-  var g = 'rgba(46, 204, 113,1.0)';
-  var gg = 'rgba(46, 204, 113,0.45)';
-  var ggg = 'rgba(46, 204, 113,0.2)';
+  var g = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+  var gg = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+  var ggg = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
   var array = [g, gg, ggg];
   this.color = array[Math.floor(Math.random() * 3)];
   //generates random colors
@@ -155,9 +155,9 @@ function createParticle() {
   this.life = Math.random() * 100;
   // the life
 
-  var g = 'rgba(46, 204, 113,1.0)';
-  var gg = 'rgba(46, 204, 113,0.45)';
-  var ggg = 'rgba(46, 204, 113,0.2)';
+  var g = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+  var gg = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+  var ggg = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
   var array = [g, gg, ggg];
   this.color = array[Math.floor(Math.random() * 3)];
   // making 3 mandatory colors (change it and fork - i might use that!)
